@@ -16,4 +16,5 @@ resource "azurerm_storage_container" "cnt-stg-files-proc" {
   name = "cnt-stg-files-proc"
   storage_account_name = azurerm_storage_account.stg_files_proc.name
   container_access_type = "private"
+
 }
